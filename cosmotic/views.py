@@ -6,7 +6,7 @@ from .models import *
 
 def home(request):
 
-    return render(request, 'cosmotic/base.html')
+    return render(request, 'cosmotic/home.html')
 
 
 def products(request):
